@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-evenly;
+	 flex-wrap: wrap;
+	
+	
+}
+
+
+.item {
+    flex: 1 1 100px;  /* Allow flexibility with a minimum width */
+    margin: 10px;
+    text-align: center;
+  
+    padding: 20px;
+  
+}
